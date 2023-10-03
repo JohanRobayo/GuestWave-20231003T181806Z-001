@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+</head>
+<body class="registro">
+    <div class="conte">
+       <h1 class="r">Registrarse</h1>
+        <div class="regiz">
+            <h2 class="ri">Nombres</h2>
+            <input type="text" class="inputre">
+            <h2  class="ri">Apellidos</h2>
+            <input type="text" class="inputre">
+            <h2  class="ri">Correo Electronico</h2>
+            <input type="email" class="inputre-em">
+            <h2 class="ri">Telefono</h2>
+            <input type="text" class="inputre-tel">
+            <h2  class="ri">Seleccione un tipo de indetificacion</h2>
+                <select name="" id="" class="inputre-id">
+                    <option value="" >C.C.</option>
+                    <option value="" >PA</option>
+                    <option value="" >C.E.</option>
+                </select>
+            <h2  class="ri">Numero de indetificacion</h2>
+            <input type="text" class="inputre">
+            <h2  class="ri">Fecha de nacimiento</h2>
+            <input type="date" class="inputre-na">
+        </div>
+        <div class="regde">
+            <h2  class="ri">Crear Contraseña</h2>
+            <input type="password" id="Pass" class="inputre">
+            <h2  class="ri">Verficar contraseña</h2>
+            <input type="password" id="VerificarPasss" class="inputre"><br><br><br>
+            <button class="inicio" onclick="ValidarPassword()">Iniciar Sesion</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

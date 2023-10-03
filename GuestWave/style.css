@@ -1,0 +1,183 @@
+body.login{
+    
+    background-image: url("imagenes/back_auto_x2.jpg");
+    color: #a1a09e;
+    
+}
+.h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+}
+.h2{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.bot{
+    color: #a1a09e;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid #fff; /* Cambié el valor de border-color a #fff para que sea blanco */
+    transition: background-color 0.3s, border-color 0.3s;
+    position: absolute;
+    left: 42%;
+}
+.cont{
+    border-radius: 5px;
+    backdrop-filter: blur (0.4 rem);
+    /*background: #0000002f;*/
+    background-color: rgba(24, 22, 22, 0.744);
+    width: 400px;
+    border: 2px solid #fafafa00;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+.bot:hover{
+    color: black;
+    background-color: rgb(203, 204, 205);
+}
+
+.con{
+    color: rgb(211, 204, 204);
+    font-size: 20px;
+    height: 30px;
+    outline: none;
+    background: none;
+    border: none; /* Elimina los bordes */
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 355px;
+}
+.ol{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a1a09e;
+    margin: 30px;
+    float: right;
+}
+
+
+
+.registro{
+    color: white;
+    background-color: rgb(32, 30, 30);
+    
+}
+.re{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a1a09e;
+    position: absolute;
+    float: left;
+    margin-top: 42px;
+}
+.conte{
+    border-radius: 5px;
+    backdrop-filter: blur (0.4 rem);
+    /*background: #0000002f;*/
+    background-color: rgba(24, 22, 22, 0.779);
+    height: 740px;
+    width: 1000px;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+.regiz{
+    margin-top: 100px;
+    left: 25%;
+    position: absolute;
+    float: left;
+
+}
+.regde{
+    margin-top: 100px;
+    left: 60%;
+    position: absolute;
+    float: right;
+}
+.r{
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    position: absolute;
+    left: 40%;
+    font-size: 50px;
+}
+.ri{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.inputre{
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+}
+.inputre-em{
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 400px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+}
+.inputre-tel{
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+
+}
+.inputre-id{
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+}
+.inputre-na{
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 130px;
+    caret-color: white;
+    background: transparent;
+    border: 1px solid #ffffff; /* Cambié el valor de border-color a #fff para que sea blanco */
+}
+.inicio{
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    backdrop-filter: blur (0.4 rem);
+    /*background: #0000002f;*/
+    background-color: rgba(24, 22, 22, 0.744);
+    width: 200px;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.inicio:hover{
+    color: black;
+    background-color: rgb(203, 204, 205);
+}
